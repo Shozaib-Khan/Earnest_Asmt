@@ -18,16 +18,17 @@ A full-stack task management app built with Node.js, TypeScript, Next.js, and SQ
 ## Getting Started
 
 ### 1. Clone the repo
-
+```
 git clone https://github.com/Shozaib-Khan/Earnest_Asmt.git
 cd Earnest_Asmt
-
+```
 ### 2. Set up the backend
 
+
+```
 cd server
 npm install
 ```
-
 Create a `.env` file in the `server/` folder:
 ```
 DATABASE_URL="file:./dev.db"
@@ -49,20 +50,3 @@ npm run dev
 ```
 
 App runs at `http://localhost:3000`
-```
-
----
-
-That's it. All 33 tasks done. Here's a full summary of what was built:
-
-**Backend** — auth with bcrypt + dual JWT tokens, full task CRUD with pagination/filter/search, ownership checks on every route, proper HTTP status codes throughout.
-
-**Frontend** — login and register pages, silent token refresh on 401, protected routes via middleware, task dashboard with search, filter, pagination, add/edit modal, custom confirm dialog, and toast notifications.
-
-Push it to GitHub and you're done:
-```bash
-cd ..
-git add .
-git commit -m "complete task management system"
-git push
-```
