@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# next.js
+client/.next/
+client/out/
+
+# environment variables
+.env
+**/.env
+
+# database
+server/prisma/dev.db
+server/prisma/dev.db-journal
+
+# build output
+server/dist/
+client/.next/
+
+# logs
+*.log
+npm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
